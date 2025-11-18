@@ -11,7 +11,7 @@ const geistMono = Geist_Mono({
   subsets: ['latin']
 });
 // change to actual prod url
-const baseUrl = process.env.NODE_ENV === 'production' ? 'https://sfhacks.io' : 'http://localhost:3000';
+const baseUrl = process.env.NODE_ENV === 'production' ? 'https://open-graph-test-plum.vercel.app/' : 'http://localhost:3000';
 
 export const metadata: Metadata = {
   title: 'SF Hacks 2026 Application Signup',
@@ -26,10 +26,10 @@ export const metadata: Metadata = {
     'application',
     'sf hacks'
   ],
-  authors: [{ name: 'SFHacks Team', url: 'https://sfhacks.io' }],
+  authors: [{ name: 'miks', url: 'https://open-graph-test-plum.vercel.app/' }],
   metadataBase: new URL(baseUrl),
   openGraph: {
-    title: 'SF Hacks 2026 Application Signup',
+    title: 'test',
     description:
       'Apply to SF Hacks, San Francisco’s top student hackathon. Submit your application now!',
     siteName: 'Apply to SF Hacks 2026',
