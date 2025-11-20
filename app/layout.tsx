@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'miks', url: 'https://open-graph-test-plum.vercel.app/' }],
   metadataBase: new URL(baseUrl),
   openGraph: {
-    title: 'test',
+    title: 'test again boy',
     description:
       'Apply to SF Hacks, San Francisco’s top student hackathon. Submit your application now!',
     siteName: 'Apply to SF Hacks 2026',
