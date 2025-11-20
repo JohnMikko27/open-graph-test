@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: 'something',
     images: [
       {
-        url: `${baseUrl}/Golden_State_Warriors_logo.svg`,
+        url: `${baseUrl}/images.png`,
         width: 1200,
         height: 630,
         alt: 'SFHacks Hackathon'
