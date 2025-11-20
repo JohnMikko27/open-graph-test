@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'test again boy',
     description:
-      'Apply to SF Hacks, San Francisco’s top student hackathon. Submit your application now!',
+      'nnew description here',
     siteName: 'Apply to SF Hacks 2026',
     images: [
       {
@@ -57,7 +57,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex min-h-screen flex-col`}
       >
-        test 
+        test again i think hopefully it works
       </body>
     </html>
   );
