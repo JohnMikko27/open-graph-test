@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 // change to actual prod url
 const baseUrl = process.env.NODE_ENV === 'production' ? process.env.NEXT_PUBLIC_PROD_URL! : process.env.NEXT_PUBLIC_DEV_URL!;
-console.log('Base URL:', baseUrl);
+
 export const metadata: Metadata = {
   title: 'SF Hacks 2026 Application Signup',
   description:
@@ -32,10 +32,10 @@ export const metadata: Metadata = {
     title: 'test again boy',
     description:
       'nnew description here',
-    siteName: 'Apply to SF Hacks 2026',
+    siteName: 'something',
     images: [
       {
-        url: `${baseUrl}/banner1.png`,
+        url: `${baseUrl}/Golden_State_Warriors_logo.svg`,
         width: 1200,
         height: 630,
         alt: 'SFHacks Hackathon'
@@ -58,6 +58,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex min-h-screen flex-col`}
       >
         test again i think hopefully it works
+        {baseUrl}
       </body>
     </html>
   );
