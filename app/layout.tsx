@@ -11,7 +11,7 @@ const geistMono = Geist_Mono({
   subsets: ['latin']
 });
 // change to actual prod url
-const baseUrl = process.env.NODE_ENV === 'production' ? process.env.NEXT_PUBLIC_PROD_URL! : process.env.NEXT_PUBLIC_DEV_URL!;
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL!
 
 export const metadata: Metadata = {
   title: 'testttt',
