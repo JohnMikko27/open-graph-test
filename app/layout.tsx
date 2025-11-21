@@ -57,8 +57,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex min-h-screen flex-col`}
       >
-        test again i think hopefully it works  
-        {baseUrl}
+        <div>test again i think hopefully it works  </div>
+        <div>new public base url: {baseUrl}</div>
+        
       </body>
     </html>
   );
